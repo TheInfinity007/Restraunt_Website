@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background:#f1f1f1;
+	width:100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.container
+{
+	width: 80%;
+	margin: 0 auto;
+}
+.icon
+{
+	height:100%;
+	width:100%;
+}
+.icon img{
+	width:100px;
+	position: relative;
+	top:40px;
+	cursor:pointer;
+}
+header
+{
+	position: relative;
+	color:#000;
+	justify-content: space-between;
+}
+.header
+{
+	float:right;
+	padding: 10px 0 0 0;
+	display: flex;
+	flex-direction: column;
+}
+.header ul.top-nav{
+	display: flex;
+	float:right;
+}
+.header li
+{
+	list-style-type: none;
+}
+.header li a
+{
+	text-decoration: none;
+	color:inherit;
+}
+div.top-nav2  ul
+{
+	float:right;
+	display: flex;
+}
+.header ul
+{
+	padding:5px 0;
+}
+#search-box
+{
+	float:right;
+	border: 1px solid #00000029;
+	padding: 4px 4px;
+	border-radius: 5px;
+}
+#search-box input
+{
+	outline: none;
+	border:none;
+	background: inherit
+}
+#search-box .fa-search
+{
+	color:gray;
+	cursor: pointer;
+}
+.fa
+{
+	font-size:0.8em;
+}
+.navbar
+{
+	background: #000;
+	color:#fff;
+	margin: 20px 0 0 0;
+}
+.navbar-nav
+{
+	display: flex;
+	/*padding: 10px 0;*/
+}
+ul.navbar-nav li
+{
+	list-style-type: none;
+	padding: 10px 10px;
+	transition: .5s
+}
+ul.navbar-nav li a
+{
+	text-decoration: none;
+	color:inherit;
+	text-transform: uppercase;
+}
+
+ul.navbar-nav li:hover
+{
+	color:#000;
+	background:#f1f1f1;
+	transition: .5s
+}
+.landing
+{
+	height:400px;
+	width:100%;
+	background:url(https://www.wallpaperflare.com/static/825/586/329/abstract-gray-light-bokeh-wallpaper.jpg);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.landing .left-content 
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 20px;
+	width:60%;
+}
+.landing .left-content h2
+{
+	font-size:3em;
+	text-transform: uppercase;
+}
+.landing .left-content span
+{
+	font-size:3em;
+	text-transform: uppercase;
+}
+.landing .left-content p
+{
+	width:70%;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.landing .left-content button
+{
+	padding: 8px 25px;
+	background: #290e0f;
+	outline:none;
+	border:0;
+	color:#fff;
+	font-weight: bold;
+	border-radius:5px;
+	cursor: pointer;
+}
+.landing .right-content
+{
+	display: flex;
+	align-items: center;
+	width:50%;
+}
+.landing .right-content img
+{
+	width:40%;
+	filter: drop-shadow(0 5px 3px #000);
+	cursor: pointer;
+}
+.bold
+{
+	font-weight: bold; !important
+}
+.bolder
+{
+	font-weight: bolder;
+}
+.gallery
+{
+	display: flex;
+	flex-direction: row;
+	padding: 30px 0;
+	justify-content: space-between;
+
+}
+.gallery .img
+{
+	height:200px;
+	width:30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor:pointer;
+}
+.gallery .img h5
+{
+	color:#fff;
+	font-size:2em;
+	text-transform: uppercase;
+}
+.gallery .img1
+{
+	background: url(https://s.itl.cat/pngfile/s/58-587786_hublot-watch-hd-desktop-wallpaper-high-definition-fullscreen.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.gallery .img2
+{
+	background: url(https://images.alphacoders.com/445/thumb-350-445736.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.gallery .img3
+{
+	background: url(https://www.chargewatch.net/wp-content/uploads/2016/11/Fake-Rolex-Watches-Guide.jpg);	
+	background-repeat: no-repeat;
+	background-size:cover;
+}
